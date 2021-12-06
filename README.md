@@ -1,6 +1,6 @@
-# docker-authentication-test
-
 # Auth0 Angular SDK sample
+
+If you are struggling with authentication for your web page;
 
 This sample app demonstrates the integration of the [Auth0 Angular SDK](https://github.com/auth0/auth0-angular) into an Angular application created using the Angular CLI. This sample is a companion to the [Auth0 Angular SDK Quickstart](https://auth0.com/docs/quickstart/spa/angular).
 
@@ -29,12 +29,6 @@ The sample needs to be configured with your Auth0 domain and client ID in order 
 Run `npm run dev` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 This will automatically start a Node + Express server as the backend on port `3001`. The Angular application is configured to proxy through to this on any `/api` route.
-
-## Build
-
-Run `npm build` to build the project. The build artifacts will be stored in the `dist/login-demo` directory. Use the `--prod` flag for a production build.
-
-To build and run a production bundle and serve it, run `npm run prod`. The application will run on `http://localhost:3000`.
 
 ## Run Using Docker
 
